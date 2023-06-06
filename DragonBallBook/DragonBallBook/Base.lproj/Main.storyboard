@@ -88,8 +88,8 @@
                     <navigationItem key="navigationItem" id="QNm-wY-STv"/>
                     <connections>
                         <outlet property="characterImage" destination="WOd-cd-zdF" id="456-1z-ctT"/>
-                        <outlet property="chracterJob" destination="0Ob-bY-v4U" id="1t2-8z-fpC"/>
-                        <outlet property="chracterName" destination="ax4-rj-qvU" id="L46-ue-bfS"/>
+                        <outlet property="characterJob" destination="0Ob-bY-v4U" id="h1N-t0-Bey"/>
+                        <outlet property="characterName" destination="ax4-rj-qvU" id="GuM-Pw-O3n"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b0C-dA-9as" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

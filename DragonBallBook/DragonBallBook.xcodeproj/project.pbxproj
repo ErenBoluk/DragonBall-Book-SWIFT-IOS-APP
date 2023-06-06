@@ -14,6 +14,7 @@
 		C421BFB72A2F668A00D92762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C421BFB62A2F668A00D92762 /* Assets.xcassets */; };
 		C421BFBA2A2F668A00D92762 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C421BFB82A2F668A00D92762 /* LaunchScreen.storyboard */; };
 		C421BFC22A2F678700D92762 /* detailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C421BFC12A2F678700D92762 /* detailVC.swift */; };
+		C421BFC42A2F6D3300D92762 /* class.dbCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C421BFC32A2F6D3300D92762 /* class.dbCharacter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		C421BFB92A2F668A00D92762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C421BFBB2A2F668A00D92762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C421BFC12A2F678700D92762 /* detailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailVC.swift; sourceTree = "<group>"; };
+		C421BFC32A2F6D3300D92762 /* class.dbCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = class.dbCharacter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				C421BFB32A2F668700D92762 /* Main.storyboard */,
 				C421BFC12A2F678700D92762 /* detailVC.swift */,
 				C421BFB62A2F668A00D92762 /* Assets.xcassets */,
+				C421BFC32A2F6D3300D92762 /* class.dbCharacter.swift */,
 				C421BFB82A2F668A00D92762 /* LaunchScreen.storyboard */,
 				C421BFBB2A2F668A00D92762 /* Info.plist */,
 			);
@@ -145,6 +148,7 @@
 				C421BFC22A2F678700D92762 /* detailVC.swift in Sources */,
 				C421BFAE2A2F668700D92762 /* AppDelegate.swift in Sources */,
 				C421BFB02A2F668700D92762 /* SceneDelegate.swift in Sources */,
+				C421BFC42A2F6D3300D92762 /* class.dbCharacter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

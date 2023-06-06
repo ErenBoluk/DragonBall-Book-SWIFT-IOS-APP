@@ -11,12 +11,17 @@ class detailVC: UIViewController {
 
     @IBOutlet weak var characterImage: UIImageView!
     
-    @IBOutlet weak var chracterName: UILabel!
-    @IBOutlet weak var chracterJob: UILabel!
+    @IBOutlet weak var characterName: UILabel!
+    
+    @IBOutlet weak var characterJob: UILabel!
+    var selectedChracter : dbCharacter?
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        characterName.text = selectedChracter?.name
+        characterJob.text = selectedChracter?.job.rawValue
+        characterImage.image = selectedChracter?.image
         
     }
     
